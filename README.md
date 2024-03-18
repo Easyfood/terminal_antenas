@@ -42,9 +42,9 @@ Deixá-lo desta forma:
  
 ##  Família: 2357:XXXX
 
-`git clone https://github.com/lwfinger/rtl8192cu`
+`cd rtl8192eu`
 
-`cd rtl8192cu`
+`make clean`
 
 `sudo make`
 
