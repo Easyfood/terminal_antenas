@@ -42,6 +42,8 @@ Deixá-lo desta forma:
 
 `git clone https://github.com/Easyfood/terminal_antenas.git`
 
+`cd terminal_antenas/`
+
 # Avalie a família da antena que usará e siga os seguintes passos
  
 ##  Família: 2357:XXXX
