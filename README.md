@@ -26,7 +26,9 @@ Deixá-lo desta forma:
 
 `sudo apt-get update`
 
-`sudo apt-get dist-upgrade`
+`sudo apt-cache search linux-image`
+
+`sudo apt install linux-image-3.16.0-6-686-pae`
 
 `sudo reboot now`
 
@@ -37,6 +39,8 @@ Deixá-lo desta forma:
 `sudo apt-get install linux-headers-` (coloque aqui o resultado do `uname -r`)
 
 `sudo apt-get install gcc-4.8 git build-essential`
+
+`git clone https://github.com/Easyfood/terminal_antenas.git`
 
 # Avalie a família da antena que usará e siga os seguintes passos
  
