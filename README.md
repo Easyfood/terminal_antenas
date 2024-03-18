@@ -91,3 +91,28 @@ Deixá-lo desta forma:
 `sudo reboot now`
 
 # Final
+
+## Identificar qual "nome" da interface Wi-Fi
+
+`sudo iwconfig`
+
+![image](https://github.com/Easyfood/terminal_antenas/assets/10848224/d479aa67-975d-485c-9364-d90c17c7d54a)
+
+Ex. Esta é chamada de "wlan0"
+
+## Alterar o /etc/network/interfaces e adicionar essa nova interface
+
+`sudo nano /etc/network/interfaces`
+
+![image](https://github.com/Easyfood/terminal_antenas/assets/10848224/3cb2da43-9659-4c71-9500-cf5430638b24)
+
+Adicione as 2 linhas ao final, com o nome da nova interface.
+
+## Configurar o "Gerenciar Redes" para considerar essa nova interface
+
+Adicionar "nome_interface" no campo Wireless interface.
+
+![image](https://github.com/Easyfood/terminal_antenas/assets/10848224/b5ba3202-577a-4d46-8b79-37b9541ac3b2)
+
+## Após isso, clicar em "Refresh" e selecionar a rede Wi-Fi desejada! :D
+
