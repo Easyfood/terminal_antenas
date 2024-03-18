@@ -52,11 +52,11 @@ Deixá-lo desta forma:
 
 `sudo make install`
 
+`sudo modprobe 8192eu`
+
 `sudo reboot now`
 
 ## Família: https://wiki.debian.org/rtl819x#r8188eu
-
-`git clone https://github.com/lwfinger/rtl8188eu.git`
 
 `cd rtl8188eu`
 
@@ -68,21 +68,7 @@ Deixá-lo desta forma:
 
 `sudo reboot now`
 
-## Família: https://wiki.debian.org/ath9k_htc
-
-Siga os passos presentes neste link:
-
-http://ftp.br.debian.org/debian/pool/non-free/f/firmware-nonfree/firmware-atheros_0.43_all.deb
-
-## Família: https://wiki.debian.org/rt2800usb
-
-Siga os passos presentes neste link:
-
-http://ftp.br.debian.org/debian/pool/non-free/f/firmware-nonfree/firmware-ralink_0.43_all.deb
-
 ## Família: 148f:7601
-
-`git clone https://github.com/art567/mt7601usta.git`
 
 `cd mt7601usta/src `
 
