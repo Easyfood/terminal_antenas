@@ -38,7 +38,7 @@ Deixá-lo desta forma:
 
 `sudo apt-get install linux-headers-` (coloque aqui o resultado do `uname -r`)
 
-`sudo apt-get install gcc-4.8 git build-essential`
+`sudo apt-get install gcc-4.8 git build-essential make`
 
 `git clone https://github.com/Easyfood/terminal_antenas.git`
 
