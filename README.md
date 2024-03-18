@@ -90,4 +90,4 @@ Deixá-lo desta forma:
 
 `sudo reboot now`
 
-# Conclusão da instalação
+# Final
