@@ -24,10 +24,6 @@ CONFIG_USB_HCI = y
 CONFIG_BT_COEXIST = n
 CONFIG_WOWLAN = n
 
-export TopDIR ?= $(shell pwd)
-
-MSG="Directory .git does not exist indicating that you downloaded the source as a zip file. Only the 'git clone' method is now supported."
-
 OUTSRC_FILES :=				\
 		hal/HalHWImg8188E_MAC.o	\
 		hal/HalHWImg8188E_BB.o	\
@@ -149,7 +145,6 @@ endif
 all: test modules
 
 test:
-	@if [ !  -e  ./.git ] ; then echo $(MSG); exit 1; fi;
 
 modules:
 	$(MAKE) ARCH=$(ARCH) CROSS_COMPILE=$(CROSS_COMPILE) -C $(KSRC) M=$(shell pwd)  modules
