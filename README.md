@@ -28,7 +28,7 @@ Deixá-lo desta forma:
 
 `sudo apt-cache search linux-image`
 
-`sudo apt install linux-image-3.16.0-6-686-pae`
+`sudo apt-get install linux-image-3.16.0-6-686-pae`
 
 `sudo reboot now`
 
