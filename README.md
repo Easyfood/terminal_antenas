@@ -48,7 +48,7 @@ Deixá-lo desta forma:
  
 ##  Família: 2357:XXXX
 
-`cd rtl8192eu`
+`cd RTL8192EU/`
 
 `make clean`
 
